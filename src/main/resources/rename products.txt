@@ -1,0 +1,1 @@
+UPDATE "northwind"."products" p SET "product_name"=REPLACE(p.product_name,'Northwind Traders', '');
